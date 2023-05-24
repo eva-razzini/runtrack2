@@ -1,7 +1,11 @@
 <?php
 $str = "Certaines choses changent, et d'autres ne changeront jamais.";
 
-$length = strlen($str);
+$length = 0;
+while (isset($str[$length])) {
+    $length++;
+}
+
 $newStr = '';
 
 for ($i = 0; $i < $length; $i++) {
