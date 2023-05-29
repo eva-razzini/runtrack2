@@ -1,0 +1,37 @@
+    /* Styles 2 du formulaire */
+body {
+        background-image: url(https://s1.1zoom.me/b3946/672/Roses_Wedding_Ring_Flower-bud_542707_1920x1080.jpg);
+        font-family: 'Tangerine', cursive;
+        font-size: 50px;
+}
+form {
+        top: 150px;
+        width: 500px;
+        position: relative;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 15px;
+        text-align: center;
+        border: solid;
+        border-color: #ab875f;
+}
+label {
+        display: block;
+        margin-bottom: 10px;
+}
+input[type="text"], select {
+        width: 50%;
+        padding: 5px;
+        border: 1px solid #ab875f;
+        border-radius: 5px;
+}
+input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #b38b5f;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+}
