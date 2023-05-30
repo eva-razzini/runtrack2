@@ -2,24 +2,33 @@
     body {
         background-color: #f1f1f1;
         font-family: Arial, sans-serif;
+        text-align: center;
       }
       form {
-        width: 300px;
+        top: 150px;
+        width: 500px;
+        position: relative;
         margin: 0 auto;
         padding: 20px;
         background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        text-align: center;
+        border: solid;
+        border-color: #4caf50;
       }
       label {
         display: block;
         margin-bottom: 10px;
+        font-size: 35px;
       }
       input[type="text"], select {
         width: 100%;
         padding: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid #4caf50;
         border-radius: 3px;
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 20px;
       }
       input[type="submit"] {
         width: 100%;
@@ -29,4 +38,6 @@
         border: none;
         border-radius: 3px;
         cursor: pointer;
+        text-align: center;
+        font-size: 20px;
       }
