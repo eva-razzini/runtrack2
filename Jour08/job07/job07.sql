@@ -1,0 +1,1 @@
+SELECT * FROM etudiants WHERE DATE_ADD(date_naissance, INTERVAL 18 YEAR) <= CURDATE();
