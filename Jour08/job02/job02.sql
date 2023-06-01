@@ -70,7 +70,7 @@ INSERT INTO `etudiants` (`id`, `prenom`, `nom`, `naissance`, `sexe`, `email`) VA
 (2, 'Jessica', 'Soriano', '1995-09-08', 'Femme', 'jessica@laplateforme.io'),
 (3, 'Roxan', 'Roumégas', '2016-09-08', 'Homme', 'roxan@laplateforme.io'),
 (4, 'Pascal', 'Assens', '1999-12-31', 'Homme', 'pascal@laplateforme.io'),
-(5, 'Terry,', 'Cristinelli', '2005-02-01', 'Homme', 'terry@laplateforme.io'),
+(5, 'Terry', 'Cristinelli', '2005-02-01', 'Homme', 'terry@laplateforme.io'),
 (6, 'Ruben', 'Habib', '1993-05-26', 'Homme', 'ruben.habib@laplateforme.io'),
 (7, 'Toto', 'Dupont', '2019-11-07', 'Homme', 'toto@laplateforme.io');
 
